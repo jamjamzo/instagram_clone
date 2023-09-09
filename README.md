@@ -2,9 +2,15 @@
 
 A new Flutter project.
 
-## Getting Started
+## 진행내용
 
-This project is a starting point for a Flutter application.
+이 프로젝트는 플러터를 활용하여 인스타그램의 클론 코딩을 하는 내용을 담고 있다.
+
+### 230910 : 홈화면 만들기
+![Simulator Screenshot - iPhone 14 Pro - 2023-09-10 at 03 00 12](https://github.com/jamjamzo/instagram_clone/assets/113870636/ad2642f5-1081-40a0-81d8-fbbe06493cf7)
+
+
+
 
 A few resources to get you started if this is your first Flutter project:
 
