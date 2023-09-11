@@ -3,8 +3,11 @@ import 'package:flutter/material.dart';
 
 class Feed extends StatefulWidget {
   const Feed({
-    super.key,
-  });
+    Key? key,
+    required this.imageFiles,
+  }) : super(key: key);
+
+  final String imageFiles;
 
   @override
   State<Feed> createState() => _FeedState();
@@ -20,7 +23,7 @@ class _FeedState extends State<Feed> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Image.asset(
-          'assets/coffee&donuts.jpeg',
+          widget.imageFiles,
           height: 400,
           width: double.infinity,
           fit: BoxFit.cover,
